@@ -1,0 +1,40 @@
+{% from 'macros/helpers.html' import sprite %}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&subset=latin,vietnamese,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic&subset=latin,vietnamese,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,vietnamese,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% include "shared/app-icons.html" %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.3/modernizr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.1.2/jquery.bxslider.min.js"></script>
+    <script src="thanh/style.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if IE]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    {% block head %}{% endblock %}
+</head>
+<body>
+{% include "shared/header.html" %}
+{% block content %}{% endblock %}
+{% include "shared/footer.html" %}
+{% block javascript %}
+<!--<script src="javascripts/app.js"></script>-->
+<script src="app.js"></script>
+{% endblock %}
+</body>
+</html>
