@@ -1,4 +1,4 @@
-# HTML Based Project using Gulp.JS
+# Static web Based Project using Gulp.JS
 
 ## Workflow
 
