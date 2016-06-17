@@ -39,7 +39,6 @@ gulp
 * Tech Leader at [Time Universal Communications](http://timeuniversal.vn)
 * Email: [anhtoan.dev@gmail.com](mailto:anhtoan.dev@gmail.com) or [toanna@timevn.com](mailto:toanna@timevn.com)
 * Skype: ng.anhtoan
-* Cellphone: [+84 965 99 55 68](callto:+84 965 99 55 68)
 * Website: [toanf.com](http://toanf.com)
 
 ## License
